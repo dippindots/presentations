@@ -1,0 +1,20 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "Static presentation websites for GitHub Pages",
+  "scripts": {
+    "build": "node tools/build-presentations.mjs",
+    "new": "node tools/new-presentation.mjs"
+  },
+  "keywords": [
+    "github-pages",
+    "marp",
+    "presentations",
+    "slides"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.4.0"
+  }
+}
