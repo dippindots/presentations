@@ -42,11 +42,11 @@ Community bonding kickoff for our summer projects
 
 | Project | Contributor | Mentors |
 | --- | --- | --- |
-| Automated Clinical Metadata Harmonization Dashboard | Ahmed Osama | Angelica, Sehyun Oh |
-| AI-Assisted Curation Assistant Tool | Filippo Cingolani | Ramya Madupuri |
-| Enhance Similarity Maps Visualization | Leslie Ejeh | inodb, Jason Hwee |
-| MCP Apps: Interactive Genomic Visualisations | Luke Devlin | Zain Nasir |
-| Enhance 3D Protein Structure Viewer | Yichuan Zhang | Onur Sumer, Xiang Li |
+| Automated Clinical Metadata Harmonization Dashboard | Ahmed Osama | Angelica, Sehyun |
+| AI-Assisted Curation Assistant Tool | Filippo Cingolani | Ramya, Anusha |
+| Enhance Similarity Maps Visualization | Leslie Ejeh | Ino, Jason |
+| MCP Apps: Interactive Genomic Visualisations | Luke Devlin | Zain |
+| Enhance 3D Protein Structure Viewer | Yichuan Zhang | Onur, Xiang |
 
 ---
 
