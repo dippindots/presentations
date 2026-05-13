@@ -17,12 +17,12 @@ Community bonding kickoff for our summer projects
 
 ---
 
-## Why this meeting matters
+## Welcome 🎉
 
-- Welcome everyone into the community early
-- Make sure each contributor knows their project, mentors, and support path
-- Align on how we communicate before coding starts on **May 25**
-- Turn "I got accepted" into "I know how to succeed here"
+- We received **100+ proposals** this year
+- Congratulations to all selected contributors and mentors
+- Thank you for the time, care, and effort it took to get here
+- Wishing everyone a great and successful project this summer
 
 ---
 
@@ -73,16 +73,6 @@ Community bonding kickoff for our summer projects
 
 ---
 
-## What good support looks like
-
-- Access to repos, docs, tools, and communication channels
-- Clear first tasks and context for why the project matters
-- Shadowing or walkthroughs when useful
-- Multiple people you can reach out to, not just one person
-- Room to ask "basic" questions without hesitation
-
----
-
 ## What we expect from contributors
 
 - Be responsive and communicate consistently
@@ -123,7 +113,6 @@ Community bonding kickoff for our summer projects
 - If project length needs to change, discuss it **before** any official update
 - Project size can be reduced if needed, but not increased
 - Long silence during bonding is a serious problem; communicate early
-- Google admin sessions are useful, but day-to-day success comes from our local community habits
 
 ---
 
