@@ -7,6 +7,12 @@ header: "cBioPortal"
 footer: "Imaging resources and viewers"
 ---
 
+<style>
+.cols { display: flex; gap: 32px; font-size: 0.85em; }
+.cols > div { flex: 1; min-width: 0; }
+.cols img { width: 100%; border: 1px solid #e5e7eb; border-radius: 6px; }
+</style>
+
 # From one viewer to many
 
 Generalizing the H&E slide work
@@ -29,16 +35,32 @@ The first integration: the **IDC viewer**, from the ITCR side project.
 
 ---
 
-## Demo
+## Find it in the portal, inspect it in the viewer
 
-**BRCA study → Slide Microscopy tab**
+<div class="cols">
+<div>
 
-1. Filter: **Tumor Cells > 70%**, **Section Location = TOP**
-2. Sort, add columns, narrow further
-3. Click through — the **IDC viewer** opens on that slide
+**Portal — which images?**
 
-Eleven attributes on this study, all filterable.
-None of them hardcoded in the portal.
+3,074 slides narrowed to the handful worth opening
+*Tumor Cells > 70%, Section = TOP*
+
+![Filtered slide microscopy table](assets/portal-filtered-table.png)
+
+</div>
+<div>
+
+**IDC viewer — what am I looking at?**
+
+Opens on that exact slide, with the image's own
+metadata alongside it
+
+![IDC slide microscopy viewer](assets/idc-viewer.png)
+
+</div>
+</div>
+
+Two levels of metadata: **enough to find it** in the portal, **all of it** in the viewer.
 
 ---
 
