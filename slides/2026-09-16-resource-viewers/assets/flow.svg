@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 230" width="1100" height="230" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+
+  <!-- Curation -->
+  <rect x="8" y="40" width="300" height="130" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="158" y="76" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">Curation</text>
+  <text x="158" y="110" text-anchor="middle" font-size="17" fill="#4b5563">image links + metadata</text>
+  <text x="158" y="136" text-anchor="middle" font-size="17" fill="#4b5563">+ a display contract</text>
+
+  <line x1="316" y1="105" x2="384" y2="105" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Portal -->
+  <rect x="392" y="40" width="300" height="130" rx="10" fill="#eff6ff" stroke="#2563eb"/>
+  <text x="542" y="76" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">cBioPortal</text>
+  <text x="542" y="110" text-anchor="middle" font-size="17" fill="#4b5563">describe &#183; search &#183; sort</text>
+  <text x="542" y="136" text-anchor="middle" font-size="17" fill="#4b5563">filter on any attribute</text>
+
+  <line x1="700" y1="105" x2="768" y2="105" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Viewer -->
+  <rect x="776" y="40" width="300" height="130" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="926" y="76" text-anchor="middle" font-size="24" font-weight="bold" fill="#111827">Viewer</text>
+  <text x="926" y="110" text-anchor="middle" font-size="17" fill="#4b5563">IDC &#183; H&amp;E slides</text>
+  <text x="926" y="136" text-anchor="middle" font-size="17" fill="#4b5563">&#183; the next one</text>
+
+  <text x="542" y="205" text-anchor="middle" font-size="17" fill="#4b5563">the portal never learns about a specific viewer &#8212; only what the curator declares</text>
+</svg>

@@ -9,6 +9,7 @@ footer: "Imaging resources and viewers"
 
 <style>
 img { border: 1px solid #e5e7eb; border-radius: 6px; }
+img[alt="flow"] { border: none; }
 .tight { font-size: 0.8em; }
 .lead { font-size: 0.9em; margin-bottom: 0.4em; }
 </style>
@@ -20,7 +21,17 @@ Ray's viewer carries far more per-image metadata than the portal could store.
 So we made the portal hold **arbitrary metadata per image** — and generalized it,
 so **any future viewer** can plug in the same way.
 
-Current example: the **ITCR set-aside project**, integrating IDC images.
+Our current example: the **ITCR set-aside project**, integrating IDC images.
+
+---
+
+## The example: IDC images, via the ITCR set-aside project
+
+<p class="lead">The images live in <strong>IDC</strong>. The descriptions live in <strong>GDC</strong>. Neither side joins them.</p>
+
+![width:620](assets/idc_viewer.png)
+
+<p class="tight"><strong>Ramya</strong> pulled the metadata from GDC and correlated it to the IDC slides. That correlation is what the portal curates — without it there is nothing to filter on.</p>
 
 ---
 
@@ -44,19 +55,6 @@ Current example: the **ITCR set-aside project**, integrating IDC images.
 
 ## How it generalizes: curation, not code
 
-- Curators attach **metadata to each image** while curating the study
-- A small **contract** declares how each attribute behaves:
-  display name, description, type, filterable, shown by default
-- The portal builds the table, the filters, and the link into the viewer
+![flow width:1050](assets/flow.svg)
 
-**Adding a viewer is a curation step, not an engineering project.**
-
----
-
-## Current example: IDC images, via the ITCR set-aside project
-
-<p class="lead">The images live in <strong>IDC</strong>. The descriptions live in <strong>GDC</strong>. Neither side joins them.</p>
-
-![width:640](assets/idc_viewer.png)
-
-<p class="tight"><strong>Ramya</strong> pulled the metadata from GDC and correlated it to the IDC slides. That correlation is what the portal curates and makes filterable — without it there is nothing to filter on.</p>
+<p class="tight">Curators declare the metadata and how each attribute behaves — display name, type, filterable, shown by default. <strong>Adding a viewer is a curation step, not an engineering project.</strong></p>
