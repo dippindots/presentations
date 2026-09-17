@@ -42,13 +42,13 @@ The first integration: the **IDC viewer**, from the ITCR side project.
 
 ---
 
-## Open it: the viewer carries its own metadata
+## Where the metadata comes from
 
-<p class="lead">The portal narrows it down; the IDC viewer opens on that slide with the full image detail.</p>
+<p class="lead">The images live in <strong>IDC</strong>. The descriptions live in <strong>GDC</strong>. Neither side joins them.</p>
 
-![width:720](assets/idc_viewer.png)
+![width:640](assets/idc_viewer.png)
 
-<p class="tight">Two levels of metadata: <strong>enough to find it</strong> in the portal, <strong>all of it</strong> in the viewer.</p>
+<p class="tight"><strong>Ramya</strong> pulled the metadata from GDC and correlated it to the IDC slides — that correlation is what the portal curates and makes filterable. Clicking a row opens the slide in the IDC viewer.</p>
 
 ---
 
@@ -61,4 +61,4 @@ The first integration: the **IDC viewer**, from the ITCR side project.
 
 **Adding a viewer is now a curation step, not an engineering project.**
 
-**Ramya** generated the IDC metadata that makes this possible — without it, none of the above exists.
+**Ramya** built the GDC-to-IDC metadata correlation this is all based on.
