@@ -74,7 +74,7 @@ a given slide. It is not something the IDC viewer displays.
 
 ![width:1000](assets/previous_design.png)
 
-<p class="tight">A researcher cannot ask <em>"show me slides with high tumor content"</em> — they can only scroll.</p>
+<p class="tight">A researcher cannot ask <em>"show me slides with high tumor content"</em>. The only way to find out is to open slides one at a time and look.</p>
 
 <!--
 ~45s
@@ -84,8 +84,11 @@ This is the same study before the change.
 Look at the Description column — every single row says "Slide Microscopy".
 That is all we could store. Over a thousand rows of it.
 
-So you cannot tell one image from another, which means you cannot choose. The
-only way through is to open them one at a time and look.
+So you cannot tell one image from another, which means you cannot choose.
+
+And it is worse than scrolling — to learn anything about a slide you have to
+click through into the viewer and look at it. One at a time, across a thousand
+rows. Nobody does that.
 -->
 
 ---
