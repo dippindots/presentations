@@ -8,9 +8,9 @@ footer: "Imaging resources and viewers"
 ---
 
 <style>
-.cols { display: flex; gap: 32px; font-size: 0.85em; }
-.cols > div { flex: 1; min-width: 0; }
-.cols img { width: 100%; border: 1px solid #e5e7eb; border-radius: 6px; }
+img { border: 1px solid #e5e7eb; border-radius: 6px; }
+.tight { font-size: 0.8em; }
+.lead { font-size: 0.9em; margin-bottom: 0.4em; }
 </style>
 
 # From one viewer to many
@@ -24,43 +24,31 @@ The first integration: the **IDC viewer**, from the ITCR side project.
 
 ---
 
-## Why: finding the right image
+## Before: a list of links
 
-- Imaging lives outside the portal — you leave to look, and you cannot tell which images are worth opening
-- TCGA BRCA alone has **3,074 slides across 1,084 patients**
-- Without description, that is a list of 3,000 links
+<p class="lead">Every row described as "Slide Microscopy". Nothing to tell one image from another.</p>
 
-> A researcher cannot ask *"show me slides with high tumor content"*.
-> They can only scroll.
+![width:1000](assets/previous_design.png)
+
+<p class="tight">A researcher cannot ask <em>"show me slides with high tumor content"</em> — they can only scroll.</p>
 
 ---
 
-## Find it in the portal, inspect it in the viewer
+## After: every image described, sortable and filterable
 
-<div class="cols">
-<div>
+<p class="lead">Same study — 3,074 slides, 11 attributes. Filtered here to <strong>487 slides across 450 patients</strong>.</p>
 
-**Portal — which images?**
+![width:960](assets/filtering.png)
 
-3,074 slides narrowed to the handful worth opening
-*Tumor Cells > 70%, Section = TOP*
+---
 
-![Filtered slide microscopy table](assets/portal-filtered-table.png)
+## Open it: the viewer carries its own metadata
 
-</div>
-<div>
+<p class="lead">The portal narrows it down; the IDC viewer opens on that slide with the full image detail.</p>
 
-**IDC viewer — what am I looking at?**
+![width:720](assets/idc_viewer.png)
 
-Opens on that exact slide, with the image's own
-metadata alongside it
-
-![IDC slide microscopy viewer](assets/idc-viewer.png)
-
-</div>
-</div>
-
-Two levels of metadata: **enough to find it** in the portal, **all of it** in the viewer.
+<p class="tight">Two levels of metadata: <strong>enough to find it</strong> in the portal, <strong>all of it</strong> in the viewer.</p>
 
 ---
 
@@ -73,14 +61,4 @@ Two levels of metadata: **enough to find it** in the portal, **all of it** in th
 
 **Adding a viewer is now a curation step, not an engineering project.**
 
----
-
-## Credit and what is next
-
-**Ramya** generated the IDC metadata that makes filtering and sorting possible.
-Without it, none of the above exists.
-
-- ITCR side project on Imaging Data Commons data
-- Next: more viewers, more studies
-
-Questions?
+**Ramya** generated the IDC metadata that makes this possible — without it, none of the above exists.
