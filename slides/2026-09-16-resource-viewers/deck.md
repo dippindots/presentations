@@ -13,14 +13,14 @@ img { border: 1px solid #e5e7eb; border-radius: 6px; }
 .lead { font-size: 0.9em; margin-bottom: 0.4em; }
 </style>
 
-# From one viewer to many
+# Supporting the new slide viewer — and the next one
 
-Generalizing the H&E slide work
+Ray's viewer carries far more per-image metadata than the portal could store.
 
-What Ray showed is **one viewer for one data type**.
-We generalized it, so a study can bring its own images and its own viewer.
+So we made the portal hold **arbitrary metadata per image** — and generalized it,
+so **any future viewer** can plug in the same way.
 
-The first integration: the **IDC viewer**, from the ITCR side project.
+Current example: the **ITCR set-aside project**, integrating IDC images.
 
 ---
 
@@ -42,23 +42,21 @@ The first integration: the **IDC viewer**, from the ITCR side project.
 
 ---
 
-## Where the metadata comes from
-
-<p class="lead">The images live in <strong>IDC</strong>. The descriptions live in <strong>GDC</strong>. Neither side joins them.</p>
-
-![width:640](assets/idc_viewer.png)
-
-<p class="tight"><strong>Ramya</strong> pulled the metadata from GDC and correlated it to the IDC slides — that correlation is what the portal curates and makes filterable. Clicking a row opens the slide in the IDC viewer.</p>
-
----
-
 ## How it generalizes: curation, not code
 
 - Curators attach **metadata to each image** while curating the study
 - A small **contract** declares how each attribute behaves:
   display name, description, type, filterable, shown by default
-- The portal builds the table, the filters, and the viewer link
+- The portal builds the table, the filters, and the link into the viewer
 
-**Adding a viewer is now a curation step, not an engineering project.**
+**Adding a viewer is a curation step, not an engineering project.**
 
-**Ramya** built the GDC-to-IDC metadata correlation this is all based on.
+---
+
+## Current example: IDC images, via the ITCR set-aside project
+
+<p class="lead">The images live in <strong>IDC</strong>. The descriptions live in <strong>GDC</strong>. Neither side joins them.</p>
+
+![width:640](assets/idc_viewer.png)
+
+<p class="tight"><strong>Ramya</strong> pulled the metadata from GDC and correlated it to the IDC slides. That correlation is what the portal curates and makes filterable — without it there is nothing to filter on.</p>
